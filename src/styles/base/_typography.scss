@@ -1,4 +1,5 @@
 @use "../variables/index.scss" as vars;
+h1,
 h2,
 h3,
 h4,
@@ -14,8 +15,11 @@ h6 {
 
 	font-size: 1em;
 
-	&:is(h2) {
+	&:is(h1) {
 		font-size: 3em;
+	}
+	&:is(h2) {
+		font-size: 2em;
 	}
 	&:is(h3) {
 		font-size: 1.5em;
