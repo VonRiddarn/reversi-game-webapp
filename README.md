@@ -1,5 +1,8 @@
 # Reversi game client 💻
 
+**IMPORTANT NOTICE**  
+_This is at its core a school project for backend development. The deadline is in just a few days, meaning the frontend will have to compromize with some QOL and UX features for the end user._
+
 This is the omniproject for the client.  
 The true frontend client will only ever speak to the next-api.  
 The next-api will then route requests to the secret backend with an internal authorized application key in the header: `x-internal-auth`.  
